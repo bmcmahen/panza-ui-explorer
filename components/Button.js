@@ -61,6 +61,11 @@ export const examples = [
     render: () => <Button onPress={noop} primary rounded={25}>Rounded</Button>
   },
   {
+    title: 'Tiny',
+    description: 'A tiny button',
+    render: () => <Button onPress={noop} tiny>Tiny</Button>
+  },
+  {
     title: 'Small',
     description: 'A small button',
     render: () => <Button onPress={noop} small>Small</Button>
@@ -69,6 +74,11 @@ export const examples = [
     title: 'Large',
     description: 'A large button',
     render: () => <Button onPress={noop} large>Large</Button>
+  },
+  {
+    title: 'Giant',
+    description: 'A giant button',
+    render: () => <Button onPress={noop} giant>Giant</Button>
   }
 ].map(e => {
   e.props = { px: 2 }
